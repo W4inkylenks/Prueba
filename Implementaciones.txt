@@ -1,0 +1,13 @@
+1.- Buscador para el administrador, que haga la busqueda segun el nombre del dispositivo segun fue guardado en la base
+	de datos.
+2.- Que el usuario al cliquear uno de sus dispositivo te lleve a una descripcion del mismo.
+
+3.- Cuando se le asigne a un dispositivo su dueño, hay que procurar de que se le asigne a todos los demas dispositivos.
+
+
+
+
+DUDAS
+
+1.- Todas las mediciones tienen un id distinto, se le asginara segun el nombre, o sea, que se al asignar un usuario un
+dispositivo se buscara el dispositivo segun el nombre, ya que supuestamente deberia tener el mismo nombre ejmplo 'SM-03'.

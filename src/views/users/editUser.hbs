@@ -1,0 +1,29 @@
+<div class="col-md-4 mx-auto">
+    <div class="card">
+        <div class="card-header">
+            <h3>Editar Usuario</h3>
+        </div>
+        <div class="card-body">
+           <form action="/users/edit?_method=PUT" method="POST">
+                {{#each usuario}}
+                <input type="hidden" name="_method" value="PUT">
+                <div class="form-group">
+                    <input type="text" name="nombre" class="form-control" value="{{nombre}}">
+                </div>
+                <div class="form-group">
+                    <input name="direccion" class="form-control" value="{{direccion}}">
+                </div>
+                <div class="form-group">
+                    <input name="email" class="form-control" value="{{email}}">
+                </div>
+                <div class="form-group">
+                    <input name="telefono" class="form-control" value="{{telefono}}">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block" type="submit">Save</button>
+                </div>
+                {{/each}}
+            </form>
+        </div>
+    </div>
+</div>

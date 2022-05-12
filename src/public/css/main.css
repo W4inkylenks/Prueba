@@ -1,0 +1,21 @@
+body {
+  background: url('../imagenes/fondo5.jfif') no-repeat center center fixed;
+  /*background-color: rgb(77, 145, 1);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.container .card {
+    background-color:  rgba(0, 0, 0, .4);
+    margin-top: 5%;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
