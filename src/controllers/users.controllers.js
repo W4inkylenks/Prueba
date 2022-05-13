@@ -8,7 +8,16 @@ usersCtrl.renderIndex = ( req, res ) => {
     res.render('./users/login');
 };
 
+function func(){
+    return 'AJSFSO';
+}
+
 usersCtrl.renderSignUp = ( req, res ) => {
+    let objeto = {
+        nombre: 'ESTE ES UN OBJETO',
+        apellido: "Hola"
+    }
+    console.log(objeto);
     res.render('users/signUp');
 };
 
